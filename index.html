@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>박상우 — 백엔드 개발</title>
+<style>
+  :root { --bg: #f4f4f4; --card: #fff; --ink: #191f28; --sub: #6b7280; --blue: #2272e0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111; --card: #1c1c1e; --ink: #f2f2f2; --sub: #9ca3af; --blue: #5b9bf0; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 16px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  .lead { color: var(--sub); margin: 0 0 32px; }
+  .card { background: var(--card); border-radius: 16px; padding: 24px; margin-bottom: 16px; }
+  .card h2 { font-size: 18px; margin: 0 0 6px; }
+  .card p { margin: 0 0 14px; color: var(--sub); }
+  .num { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  a.btn {
+    display: inline-block; background: var(--blue); color: #fff; text-decoration: none;
+    padding: 10px 18px; border-radius: 10px; font-weight: 600;
+  }
+  footer { color: var(--sub); font-size: 14px; margin-top: 32px; }
+  footer a { color: var(--blue); }
+</style>
+</head>
+<body>
+<main>
+  <h1>박상우</h1>
+  <p class="lead">데이터를 구축하고, 성능을 측정해 개선하는 백엔드 개발자입니다.</p>
+
+  <section class="card">
+    <h2>산책온 — 산책 코스 추천 서비스 백엔드</h2>
+    <p>AI SW 마에스트로 17기 · Java, Spring Boot, PostgreSQL<br>
+      전국 방문 후보 <span class="num">647,103</span>개 구축 ·
+      주변 지점 조회 SQL <span class="num">4.017</span>초 → <span class="num">0.144</span>초 ·
+      운영 검증에서 코스를 반환한 요청의 서버 내부 평균 응답 <span class="num">0.813</span>초</p>
+    <a class="btn" href="portfolio/sanchaekon.pdf">포트폴리오 PDF 보기</a>
+  </section>
+
+  <footer>
+    <a href="https://github.com/pswaao88">github.com/pswaao88</a> ·
+    <a href="mailto:pswaao88@gmail.com">pswaao88@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
